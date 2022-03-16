@@ -6,26 +6,28 @@ box-sizing: border-box;
 text-decoration: none;}
 
 body{font-size: 100%;
-    background: linear-gradient(68.15deg, #10403B 16.62%, #127369 85.61%);}
+    background: linear-gradient(68.15deg, #1C1C1C 16.62%, #000000 85.61%);}
 
 .cabecalho{display: flex;
     flex-direction: row;
     align-items:center;
     justify-content:space-around;
-    padding: 24px;}
+    padding: 14px;}
 
-.cabecalho-imagem{height: 72px;}
+.cabecalho-imagem{height: 150px;}
 
 .cabecalho-menu{display: flex;
 gap: 32px;}
 
-.cabecalho-menu-item{color: #BFBFBF;
+.cabecalho-menu-item{color: #F2E41B;
     font-weight: 400;
     font-family: 'Sarala', sans-serif;
     font-size: 18px;
 }
 
-.conteudo{border-top: 0.4px solid #BFBFBF;
+.cabecalho-menu-item:hover{color: #8C8303;}
+
+.conteudo{border-top: 0.4px solid #F2E41B;
 margin-bottom: 48px;}
 
 .conteudo-principal{display: flex;
@@ -41,15 +43,15 @@ gap: 32px;}
 .conteudo-principal-escrito-titulo{font-family: 'Righteous', cursive;
 font-weight: 400;
 font-size: 64px;
-color: #BFBFBF;}
+color: #F2E41B;}
 
 .conteudo-principal-escrito-subtitulo{font-family: 'Sarala', sans-serif;
 font-weight: 400;
 font-size: 24px;
-color: #BFBFBF;}
+color: #F2E41B;}
 
 .conteudo-principal-escrito-botao{background-color: #262425;
-    color: #BFBFBF;
+    color: #F2E41B;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -72,12 +74,12 @@ gap: 24px;
 margin-top: 48px;
 }
 
-.conteudo-secundario-titulo{border-top: 0.4px solid #BFBFBF;
+.conteudo-secundario-titulo{border-top: 0.4px solid #F2E41B;
 padding-top: 48px;
 font-family: 'Righteous', cursive;
 font-weight: 400;
 font-size: 24px;
-color: #BFBFBF ;
+color: #F2E41B ;
 margin-bottom: 16px;
 }
 
@@ -85,16 +87,16 @@ margin-bottom: 16px;
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #BFBFBF;
+  color: #F2E41B;
 }
 
 .rodape {
     padding: 32px;
-    border-top: 0.4px solid #BFBFBF;
+    border-top: 0.4px solid #F2E41B;
 }
 
 .rodape-imagem {
-  height: 48px;
+ height: 60px;
   display: block;
   margin: 0 auto;
 }
