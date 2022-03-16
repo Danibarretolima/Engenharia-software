@@ -6,7 +6,7 @@ box-sizing: border-box;
 text-decoration: none;}
 
 body{font-size: 100%;
-    background: linear-gradient(68.15deg, #1C1C1C 16.62%, #000000 85.61%);}
+    background: linear-gradient(68.15deg, #0D0D0D 16.62%,  #262626 85.61%);}
 
 .cabecalho{display: flex;
     flex-direction: row;
@@ -44,6 +44,14 @@ gap: 32px;}
 font-weight: 400;
 font-size: 64px;
 color: #F2E41B;}
+
+div.video{background-color:#F2E41B;
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px 1px rgba(0, 0, 0, 0.637);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;}
+
 
 .conteudo-principal-escrito-subtitulo{font-family: 'Sarala', sans-serif;
 font-weight: 400;
